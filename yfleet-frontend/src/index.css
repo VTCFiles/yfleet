@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.plan:hover{
+  @apply bg-red-500 text-white
+}
+.plan:hover .sub{
+  @apply text-white
+}
+.plan:hover .btn{
+  @apply text-red-500 bg-white
+}
+.plan:hover  .text-yellow{
+  @apply text-yellow-500
+}
